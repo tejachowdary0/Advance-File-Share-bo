@@ -97,6 +97,11 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             return True
     except UserNotParticipant:
         text="""**Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the File...😁
+
+ശ്രദ്ധിക്കുക
+
+താഴെ ഉള്ള ജോയിൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്തു 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 ക്ലിക്ക് ചെയ്ത് കഴിഞ്ഞ് 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ക്ലിക്ക് ചെയ്‌താൽ നിങ്ങൾക് സിനിമ ലഭിക്കുന്നതാണ്...😁**"""
+
         buttons = [
             [
                 InlineKeyboardButton("📢 Request to Join Channel 📢", url=invite_link)
@@ -104,8 +109,8 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             [
                 InlineKeyboardButton(" 🔄 Try Again 🔄 ", callback_data=f"{mode}#{file_id}")
             ],
-            [   InlineKeyboardButton("Update", url="https://t.me/what_if_dub"),
-                InlineKeyboardButton("YouTube", url="https://youtube.com/@sastamarvel01?si=EsSwjVVNcuhA8Tci")
+            [   InlineKeyboardButton("Update", url="https://t.me/VJ_Botz"),
+                InlineKeyboardButton("YouTube", url="https://youtube.com/@Tech_VJ")
             ]
         ]
         
