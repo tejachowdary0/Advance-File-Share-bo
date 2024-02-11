@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/hero890/Advance-File-Share-bo /Advance-File-Share-bo
+  git clone https://github.com/nero-bc/Advance-File-Share-bo /Advance-File-Share-bo
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Advance-File-Share-bo
